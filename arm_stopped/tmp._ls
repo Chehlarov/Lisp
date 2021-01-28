@@ -1,0 +1,13 @@
+(defun c:usil()
+  (setq p1 (getpoint))
+  (setq p2 (getpoint p2))
+  (setq dist (distance p1 p2))
+  (print dist)
+  (setq diam (getint "diam: "))
+  (setq span (getint "span: "))
+  (setq areastopped (* (/ (* pi diam diam) 4) (/ 100 span)))
+  (setq areareplaement (* 1.5 areastopped))
+  (print areareplaement)
+  (princ)
+  
+  )
