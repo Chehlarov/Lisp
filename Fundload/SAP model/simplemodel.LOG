@@ -1,0 +1,56 @@
+ Program SAP2000 Nonlinear Version 7.42                     File:simplemodel.LOG
+                                                                     
+                                                                       
+
+
+ B E G I N   A N A L Y S I S                                2008/09/09  10:12:43
+
+ MAXIMUM MEMORY BLOCK SIZE (BYTES)         =       7.629 MB
+
+
+ E L E M E N T   F O R M A T I O N                                      10:12:43
+
+ NUMBER OF JOINT  ELEMENTS FORMED          =           4
+ NUMBER OF SPRING ELEMENTS FORMED          =         441
+ NUMBER OF SHELL  ELEMENTS FORMED          =         400
+
+
+ E Q U A T I O N   S O L U T I O N                                      10:12:43
+
+ TOTAL NUMBER OF EQUILIBRIUM EQUATIONS     =        2646
+ APPROXIMATE "EFFECTIVE" BAND WIDTH        =         156
+
+ NUMBER OF EQUATION STORAGE BLOCKS         =           1
+ MAXIMUM BLOCK SIZE (8-BYTE TERMS)         =      404217
+ SIZE OF STIFFNESS FILE(S) (BYTES)         =       3.094 MB
+
+ NUMBER OF EQUATIONS TO SOLVE              =        2646
+ NUMBER OF STATIC LOAD CASES               =           2
+ NUMBER OF ACCELERATION LOADS              =           6
+ NUMBER OF NONLINEAR DEFORMATION LOADS     =           0
+
+
+ J O I N T   O U T P U T                                                10:12:44
+
+ G L O B A L   F O R C E   B A L A N C E   R E L A T I V E   E R R O R S
+
+ PERCENT FORCE AND MOMENT ERROR AT THE ORIGIN, IN GLOBAL COORDINATES
+
+    LOAD          FX          FY          FZ          MX          MY          MZ
+    DEAD     .000000     .000000    1.39E-12    1.03E-12    4.01E-13     .000000
+    LIVE     .000000     .000000     .000000     .000000     .000000     .000000
+
+
+ E L E M E N T   J O I N T - F O R C E   O U T P U T                    10:12:44
+
+ NUMBER OF JOINT  ELEMENTS SAVED           =           4
+ NUMBER OF SHELL  ELEMENTS SAVED           =         400
+ NUMBER OF SPRING ELEMENTS SAVED           =         441
+
+
+ E L E M E N T   O U T P U T                                            10:12:44
+
+ NUMBER OF SHELL  ELEMENTS SAVED           =         400
+
+
+ A N A L Y S I S   C O M P L E T E                          2008/09/09  10:12:44

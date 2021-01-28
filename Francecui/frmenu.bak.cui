@@ -1,0 +1,662 @@
+<?xml version="1.0"?>
+<!--
+Warning! Do not edit the contents of this file.
+If you attempt to edit this file using an XML editor, you could lose customization and migration functionality.
+If you need to change information in the customization file, use the Customize User Interface dialog box in the product.
+To access the Customize User Interface dialog box, click the Tools menu > Customize > Interface, or enter CUI on the command line. 
+-->
+<CustSection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FileVersion MajorVersion="0" MinorVersion="1" IncrementalVersion="3" UserVersion="1" />
+  <Header>
+    <CommonConfiguration>
+      <CommonItems>
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+      </CommonItems>
+    </CommonConfiguration>
+    <WorkspaceRoot>
+      <WorkspaceConfigRoot />
+    </WorkspaceRoot>
+  </Header>
+  <MenuGroup Name="FRMENU">
+    <MacroGroup Name="NEW GROUP">
+      <MenuMacro UID="MMU_0008">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_1711">slab</Name>
+          <Command>^C^Cnetp</Command>
+          <SmallImage Name="RCDATA_16_HLNK_STOP" />
+          <LargeImage Name="RCDATA_16_HLNK_STOP" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0009">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_1712">wall</Name>
+          <Command>^C^Cnetc</Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0010">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_1713">bars</Name>
+          <Command>^C^Cprc</Command>
+          <SmallImage Name="C:\Documents and Settings\Administrator\Application Data\Autodesk\AutoCAD 2006\R16.2\enu\Support\bars2.BMP" />
+          <LargeImage Name="C:\Documents and Settings\Administrator\Application Data\Autodesk\AutoCAD 2006\R16.2\enu\Support\bars2.BMP" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0011">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_1714">Hole strengthen</Name>
+          <Command>^C^Cdupfr</Command>
+          <SmallImage Name="RCDATA_16_TORUS" />
+          <LargeImage Name="RCDATA_16_TORUS" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0012">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_1715">Dimension Style Fix</Name>
+          <Command>^C^Cfrdimfix</Command>
+          <SmallImage Name="RCDATA_16_TORUS" />
+          <LargeImage Name="RCDATA_16_TORUS" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0013">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_1716">Sheet numbering</Name>
+          <Command>^C^Cnsheet</Command>
+          <SmallImage Name="RCDATA_16_TORUS" />
+          <LargeImage Name="RCDATA_16_TORUS" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0014">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_1717">Beam eng-&gt;FR</Name>
+          <Command>^C^Ctreplentofr</Command>
+          <SmallImage Name="RCDATA_16_TORUS" />
+          <LargeImage Name="RCDATA_16_TORUS" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0016">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_1719">Total length of colour</Name>
+          <Command>^C^Calllbycol</Command>
+          <SmallImage Name="RCDATA_16_TORUS" />
+          <LargeImage Name="RCDATA_16_TORUS" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0024">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_1727">miu</Name>
+          <Command>^C^Cmu</Command>
+          <SmallImage Name="RCDATA_16_RECTAN" />
+          <LargeImage Name="RCDATA_16_RECTAN" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0025">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_1728">ArchModelcheck</Name>
+          <Command>^C^Cmcheck</Command>
+          <SmallImage Name="RCDATA_16_OSNINT" />
+          <LargeImage Name="RCDATA_16_OSNINT" />
+        </Macro>
+      </MenuMacro>
+    </MacroGroup>
+    <MenuRoot>
+      <AcceleratorRoot />
+      <OverrideRoot />
+      <MouseButtonRoot>
+        <ButtonGroup UID="BGU_0001">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Alias>AUX1</Alias>
+          <ButtonItem BlankLine="true" UID="BIU_0001">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0002">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0003">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0004">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0005">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0006">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0007">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ButtonItem>
+        </ButtonGroup>
+        <ButtonGroup UID="BGU_0002">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Alias>AUX2</Alias>
+          <ButtonItem BlankLine="true" UID="BIU_0008">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0009">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0010">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0011">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0012">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0013">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0014">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ButtonItem>
+        </ButtonGroup>
+        <ButtonGroup UID="BGU_0003">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Alias>AUX3</Alias>
+          <ButtonItem BlankLine="true" UID="BIU_0015">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0016">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0017">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0018">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0019">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0020">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0021">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ButtonItem>
+        </ButtonGroup>
+        <ButtonGroup UID="BGU_0004">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Alias>AUX4</Alias>
+          <ButtonItem BlankLine="true" UID="BIU_0022">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0023">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0024">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0025">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0026">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0027">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0028">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ButtonItem>
+        </ButtonGroup>
+      </MouseButtonRoot>
+      <DigitizerButtonRoot>
+        <ButtonGroup UID="BGU_0005">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Alias>BUTTONS1</Alias>
+          <ButtonItem BlankLine="true" UID="BIU_0029">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ButtonItem>
+        </ButtonGroup>
+        <ButtonGroup UID="BGU_0006">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Alias>BUTTONS2</Alias>
+          <ButtonItem BlankLine="true" UID="BIU_0030">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ButtonItem>
+        </ButtonGroup>
+        <ButtonGroup UID="BGU_0007">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Alias>BUTTONS3</Alias>
+          <ButtonItem BlankLine="true" UID="BIU_0031">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ButtonItem>
+        </ButtonGroup>
+        <ButtonGroup UID="BGU_0008">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Alias>BUTTONS4</Alias>
+          <ButtonItem BlankLine="true" UID="BIU_0032">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ButtonItem>
+        </ButtonGroup>
+      </DigitizerButtonRoot>
+      <PopMenuRoot>
+        <PopMenu hasDiesel="false" UID="PMU_0001">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Alias>POP1</Alias>
+          <Name xlate="true" UID="XLS_0001">France</Name>
+          <PopMenuRef pUID="PMU_0002" UID="PMRU_0001">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </PopMenuRef>
+          <PopMenuRef pUID="PMU_0003" UID="PMRU_0002">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </PopMenuRef>
+          <PopMenuRef pUID="PMU_0004" UID="PMRU_0003">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </PopMenuRef>
+          <PopMenuRef pUID="PMU_0005" UID="PMRU_0004">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </PopMenuRef>
+          <PopMenuRef pUID="PMU_0006" UID="PMRU_0005">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </PopMenuRef>
+        </PopMenu>
+        <PopMenu hasDiesel="false" UID="PMU_0002">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0002">Specification</Name>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0001">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0003" xlate="true">slab</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0008" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0002">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_1712" xlate="true">wall</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0009" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0003">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_1713" xlate="true">bars</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0010" />
+            </MenuItem>
+          </PopMenuItem>
+        </PopMenu>
+        <PopMenu hasDiesel="false" UID="PMU_0003">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_1714">Formwork</Name>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0005">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_1718" xlate="true">Dimension Style Fix</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0012" />
+            </MenuItem>
+          </PopMenuItem>
+        </PopMenu>
+        <PopMenu hasDiesel="false" UID="PMU_0004">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_1715">Sheet manager</Name>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0006">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_1719" xlate="true">Sheet numbering</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0013" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0007">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_1720" xlate="true">Beam eng-&gt;FR</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0014" />
+            </MenuItem>
+          </PopMenuItem>
+        </PopMenu>
+        <PopMenu hasDiesel="false" UID="PMU_0005">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_1716">Slab</Name>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0004">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_1717" xlate="true">Hole strengthen</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0011" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0008">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_1718" xlate="true">Total length of colour</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0016" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0009">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_1720" xlate="true">miu</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0024" />
+            </MenuItem>
+          </PopMenuItem>
+        </PopMenu>
+        <PopMenu hasDiesel="false" UID="PMU_0006">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_1721">Arche</Name>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0010">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_1722" xlate="true">ArchModelcheck</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0025" />
+            </MenuItem>
+          </PopMenuItem>
+        </PopMenu>
+      </PopMenuRoot>
+      <ToolbarRoot />
+      <ScreenMenuRoot />
+      <ImageMenuRoot />
+      <TabletMenuRoot>
+        <TabletMenu TabletArea="9" Rows="3" Columns="3" UID="TMU_0001">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Alias>Tablet Menu 1</Alias>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0001">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0002">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0003">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0004">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0005">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0006">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0007">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0008">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0009">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0010">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0011">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0012">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0013">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0014">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0015">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0016">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0017">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0018">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0028">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0029">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0030">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0031">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0032">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0033">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0034">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0035">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0036">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0055">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0056">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0057">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0058">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0059">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0060">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0061">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0062">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0063">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+        </TabletMenu>
+        <TabletMenu TabletArea="9" Rows="3" Columns="3" UID="TMU_0002">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Alias>Tablet Menu 2</Alias>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0019">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0020">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0021">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0022">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0023">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0024">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0025">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0026">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0027">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0037">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0038">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0039">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0040">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0041">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0042">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0043">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0044">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0045">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0064">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0065">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0066">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0067">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0068">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0069">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0070">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0071">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0072">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+        </TabletMenu>
+        <TabletMenu TabletArea="9" Rows="3" Columns="3" UID="TMU_0003">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Alias>Tablet Menu 3</Alias>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0046">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0047">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0048">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0049">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0050">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0051">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0052">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0053">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0054">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0073">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0074">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0075">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0076">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0077">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0078">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0079">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0080">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0081">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+        </TabletMenu>
+        <TabletMenu TabletArea="9" Rows="3" Columns="3" UID="TMU_0004">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Alias>Tablet Menu 4</Alias>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0082">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0083">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0084">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0085">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0086">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0087">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0088">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0089">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0090">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </TabletMenuItem>
+        </TabletMenu>
+      </TabletMenuRoot>
+      <LSPFile>D:\Nikolay3\vlsip\Francecui\sourcefiles\archemodelcheck1.0.LSP</LSPFile>
+      <LSPFile>D:\Nikolay3\vlsip\Francecui\sourcefiles\arm_stopped1.0FR.lsp</LSPFile>
+      <LSPFile>D:\Nikolay3\vlsip\Francecui\sourcefiles\FR_dimfix1.0LSP.LSP</LSPFile>
+      <LSPFile>D:\Nikolay3\vlsip\Francecui\sourcefiles\miu1.LSP</LSPFile>
+      <LSPFile>D:\Nikolay3\vlsip\Francecui\sourcefiles\netspec_plochi1.5.lsp</LSPFile>
+      <LSPFile>D:\Nikolay3\vlsip\Francecui\sourcefiles\netspec_steni1.8.lsp</LSPFile>
+      <LSPFile>D:\Nikolay3\vlsip\Francecui\sourcefiles\Nomeracialista1.0FR.LSP</LSPFile>
+      <LSPFile>D:\Nikolay3\vlsip\Francecui\sourcefiles\pry4ki4.0.LSP</LSPFile>
+      <LSPFile>D:\Nikolay3\vlsip\Francecui\sourcefiles\text_repl._arch1.1lsp.LSP</LSPFile>
+      <LSPFile>D:\Nikolay3\vlsip\Francecui\sourcefiles\totalarea2.0.v mFR.lsp</LSPFile>
+      <LSPFile>D:\Nikolay3\vlsip\Francecui\sourcefiles\xref_swihcer4.0.lsp</LSPFile>
+    </MenuRoot>
+  </MenuGroup>
+</CustSection>

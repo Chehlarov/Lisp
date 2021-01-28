@@ -1,0 +1,14 @@
+
+(((("Array Factor" "<=" (parametervalue "Array Distance"))) (("Array Distance" (objectLinearArray (parametervalue "Array Factor") 0.0 0.0 (list 0))))))
+
+;Below is an an exploded copy of above
+(        ;all statements wrapper
+  (      ;this statement wrapper
+    (    ;if clauses wrapper
+      ("Array Factor" "<=" (parametervalue "Array Distance"))
+    )
+    (    ;action clause wrapper
+      ("Array Distance" (objectLinearArray (parametervalue "Array Factor") 0.0 0.0 (list 0)))
+    )
+  )
+)

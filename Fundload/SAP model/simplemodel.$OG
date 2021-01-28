@@ -1,0 +1,101 @@
+
+
+  B E G I N   I N P U T   P H A S E                                            
+                                                                               
+  PROCESSING SYSTEM DATA                                                       
+                                                                               
+  PROCESSING JOINT DATA                                                        
+                                                                               
+  PROCESSING PATTERN DATA                                                      
+                                                                               
+  PROCESSING SPRING DATA                                                       
+                                                                               
+  PROCESSING MATERIAL PROPERTY DATA                                            
+                                                                               
+  PROCESSING SHELL SECTION PROPERTY DATA                                       
+                                                                               
+  PROCESSING SHELL ELEMENT DATA                                                
+                                                                               
+  PROCESSING LOAD DATA                                                         
+                                                                               
+       PROCESSING JOINT LOAD DATA                                              
+                                                                               
+       PROCESSING SHELL LOAD DATA                                              
+                                                                               
+  PROCESSING OUTPUT DATA                                                       
+                                                                               
+                                                                               
+  I N P U T   C O M P L E T E                                                  
+                                                                                
+                                                                                
+ B E G I N   A N A L Y S I S                                2008/09/09  10:12:43
+                                                                                
+                                                                                
+ E L E M E N T   F O R M A T I O N                                      10:12:43
+
+
++NUMBER OF JOINT  ELEMENTS FORMED          =           4                        
+
++NUMBER OF SPRING ELEMENTS FORMED          =         441                        
+                                                                                
++Shell  element       0 of     400                                              
++Shell  element     100 of     400                                              
++Shell  element     200 of     400                                              
++Shell  element     300 of     400                                              
++Shell  element     400 of     400                                              
++NUMBER OF SHELL  ELEMENTS FORMED          =         400                        
+                                                                                
+                                                                                
+ E Q U A T I O N   S O L U T I O N                                      10:12:43
+                                                                                
+ TOTAL NUMBER OF EQUILIBRIUM EQUATIONS     =        2646                        
+ APPROXIMATE "EFFECTIVE" BAND WIDTH        =         156                        
+                                                                                
+ NUMBER OF EQUATION STORAGE BLOCKS         =           1                        
+ MAXIMUM BLOCK SIZE (8-BYTE TERMS)         =      404217                        
+ SIZE OF STIFFNESS FILE(S) (BYTES)         =       3.094 MB                     
+                                                                                
+ NUMBER OF EQUATIONS TO SOLVE              =        2646                        
+ NUMBER OF STATIC LOAD CASES               =           2                        
+ NUMBER OF ACCELERATION LOADS              =           6                        
+ NUMBER OF NONLINEAR DEFORMATION LOADS     =           0                        
+                                                                                
+                                                                                
+ J O I N T   O U T P U T                                                10:12:44
+                                                                                
+                                                                                
+ E L E M E N T   J O I N T - F O R C E   O U T P U T                    10:12:44
+
+                                                                                
++Joint  element       0 of       4                                              
++Joint  element       4 of       4                                              
++NUMBER OF JOINT  ELEMENTS SAVED           =           4                        
+                                                                                
++Shell  element       0 of     400                                              
++Shell  element     100 of     400                                              
++Shell  element     200 of     400                                              
++Shell  element     300 of     400                                              
++Shell  element     400 of     400                                              
++NUMBER OF SHELL  ELEMENTS SAVED           =         400                        
+                                                                                
++Spring element       0 of     441                                              
++Spring element     100 of     441                                              
++Spring element     200 of     441                                              
++Spring element     300 of     441                                              
++Spring element     400 of     441                                              
++Spring element     441 of     441                                              
++NUMBER OF SPRING ELEMENTS SAVED           =         441                        
+                                                                                
+                                                                                
+ E L E M E N T   O U T P U T                                            10:12:44
+
+                                                                                
++Shell  element       0 of     400                                              
++Shell  element     100 of     400                                              
++Shell  element     200 of     400                                              
++Shell  element     300 of     400                                              
++Shell  element     400 of     400                                              
++NUMBER OF SHELL  ELEMENTS SAVED           =         400                        
+                                                                                
+                                                                                
+ A N A L Y S I S   C O M P L E T E                          2008/09/09  10:12:44
